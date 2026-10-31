@@ -1,0 +1,46 @@
+# OS / editor
+.DS_Store
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+backend/.env
+backend/.env.local
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.local
+frontend/.env.*
+!frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+backend/.venv/
+backend/.pytest_cache/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+coverage/
+*.log
+npm-debug.log*
+
+# Local databases
+*.db
+backend/attendance.db
+backend/test_runner.db
